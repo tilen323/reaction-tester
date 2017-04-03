@@ -1,0 +1,21 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    margin: 15;
+}
+
+#box {
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    position: relative;
+
+}
+
+#shape {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: none;
+    position: relative;
+
+}
