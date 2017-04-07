@@ -54,7 +54,7 @@ function appearAfterDelay() {
 
 appearAfterDelay();
 
-document.getElementById("shape").onclick = function() {
+$("#shape").click(function() {
 
     document.getElementById("shape").style.display = "none";
 
@@ -71,4 +71,4 @@ document.getElementById("shape").onclick = function() {
 
     appearAfterDelay();
 
-}
+})
